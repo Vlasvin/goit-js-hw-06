@@ -32,3 +32,6 @@ button {
   margin-left: 40px;
   margin-right: 40px;
 }
+.text-size {
+  font-size: 0;
+}
