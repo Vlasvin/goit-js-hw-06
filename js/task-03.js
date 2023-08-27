@@ -13,17 +13,6 @@ const images = [
   },
 ];
 
-// images.forEach(element => {
-//   let imgEl = document.createElement('li');
-//   imgEl.classList.add('img-item');
-//   const img = imgEl.appendChild(document.createElement('img'));
-//   img.src = element.url;
-//   img.alt = element.alt;
-//   document
-//     .querySelector('.gallery')
-//     .insertAdjacentHTML('beforeend', imgEl.innerHTML);
-//   console.log(imgEl);
-// });
 const galleries = document.querySelector('.gallery');
 
 const imgEl = images.map(
