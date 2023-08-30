@@ -10,8 +10,7 @@ function handleSubmit(event) {
     userData[name] = value;
   });
   if ((elements.email.value && elements.password.value) === '') {
-    window.alert('Всі поля повинні бути заповнені');
-    return;
+    return alert('Всі поля повинні бути заповнені');
   }
   console.log(userData);
   form.reset();
