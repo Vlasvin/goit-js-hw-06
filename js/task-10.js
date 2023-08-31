@@ -27,6 +27,7 @@ function createBoxes() {
 }
 function clearBoxes() {
   boxEl.innerHTML = '';
+  inputNumber.value = '';
 }
 function getRandomHexColor() {
   return `#${Math.floor(Math.random() * 16777215)
